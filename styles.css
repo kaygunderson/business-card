@@ -1,0 +1,44 @@
+body {
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+.profile {
+    width: 100px;
+    border: 5px solid #5e503f;
+    border-radius: 20px;
+    color: #c9ada7;
+}
+
+
+.card {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+    width: 400px;
+    text-align: center;
+    background-color: #feeafa;
+    color: #5e503f;
+    border-bottom: 5px solid #eae0d5;
+    
+
+}
+
+.italic {
+    font-style: italic;
+    font-size: 1rem;
+    color: #5e503f;
+    text-shadow: 5px 5px 0 #ff005e, 10px 10px 0 #00d4ff;
+    animation: shadow-dance 2s infinite;
+}
+
+@keyframes shadow-dance {
+    0%, 100% {
+        text-shadow: 2px 2px 0 #ff005e, 5px 5px 0 #00d4ff;
+    }
+    50% {
+        text-shadow: -2px -2px 0 #00d4ff, -5px -5px 0 #ff005e;
+    }
+}
+
